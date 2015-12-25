@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  webview
 //
-//  Created by 前田貴範 on 2015/06/20.
+//  Created by maechabin on 2015/06/20.
 //  Copyright (c) 2015年 maechabin. All rights reserved.
 //
 
@@ -10,8 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webview: UIWebView!
+    @IBOutlet weak var urlField: UITextField!
+
+    var url = "http://moba8.net/"
+    
+    func loadURL() {
+    
+        let requestURL = NSURL(string: url)
+        let request = NSURLRequest(URL: requestURL!)
+        webview.loadRequest(request)
+
+    }
+
+    @IBAction func getUrl(sender: AnyObject) {
+        url = urlField.text!
+        loadURL()
+        urlField.resignFirstResponder()
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadURL()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,7 +39,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
