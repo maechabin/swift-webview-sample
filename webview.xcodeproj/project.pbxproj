@@ -14,6 +14,7 @@
 		6093769E1B3518D6001939DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6093769D1B3518D6001939DD /* Images.xcassets */; };
 		609376A11B3518D6001939DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6093769F1B3518D6001939DD /* LaunchScreen.xib */; };
 		609376AD1B3518D6001939DD /* webviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609376AC1B3518D6001939DD /* webviewTests.swift */; };
+		60D14BF31C2EA6E0001929DF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 60D14BF21C2EA6E0001929DF /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		609376A61B3518D6001939DD /* webviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		609376AB1B3518D6001939DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		609376AC1B3518D6001939DD /* webviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webviewTests.swift; sourceTree = "<group>"; };
+		60D14BF21C2EA6E0001929DF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		609376851B3518D5001939DD = {
 			isa = PBXGroup;
 			children = (
+				60D14BF21C2EA6E0001929DF /* .gitignore */,
 				609376901B3518D6001939DD /* webview */,
 				609376A91B3518D6001939DD /* webviewTests */,
 				6093768F1B3518D6001939DD /* Products */,
@@ -197,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D14BF31C2EA6E0001929DF /* .gitignore in Resources */,
 				6093769C1B3518D6001939DD /* Main.storyboard in Resources */,
 				609376A11B3518D6001939DD /* LaunchScreen.xib in Resources */,
 				6093769E1B3518D6001939DD /* Images.xcassets in Resources */,
