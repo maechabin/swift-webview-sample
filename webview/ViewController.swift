@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var webview: UIWebView!
     @IBOutlet weak var urlField: UITextField!
 
-    var url = "http://moba8.net/"
-    
+    var url:String = "http://moba8.net/"
+
     func loadURL() {
-    
+
         let requestURL = NSURL(string: url)
         let request = NSURLRequest(URL: requestURL!)
         webview.loadRequest(request)
